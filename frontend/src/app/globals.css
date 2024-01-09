@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-4xl mb-4;
+}
+
+h2 {
+  @apply text-3xl mb-2;
+}
+
+h3 {
+  @apply text-2xl mb-2;
+}
+
+h4 {
+  @apply text-xl mb-2;
+}
+
+h5 {
+  @apply text-lg mb-2;
+}
+
+h6 {
+  @apply text-base mb-2;
+}
+
+p {
+  @apply mb-4;
+}
+
+blockquote {
+  @apply border-l-4 border-gray-200 italic my-8 pl-8;
+}
+
+img {
+  @apply my-8 object-cover w-full;
+}
+

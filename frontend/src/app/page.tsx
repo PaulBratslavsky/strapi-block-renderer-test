@@ -10,11 +10,11 @@ async function getStrapiData() {
 export default async function Home() {
   const { data } = await getStrapiData();
 
-  const content: BlocksContent = data[0].attributes.content;
+  const content: BlocksContent = data[0].content;
 
   return (
     <main className="max-w-[980px] mx-auto my-36">
-      <h1>{data[0].attributes.title}</h1>
+      <h1>{data[0].title}</h1>
       <BlockRendererClient content={content} />
     </main>
   );
